@@ -3,7 +3,7 @@ import Toggle from './toggle';
 import { assert } from 'chai';
 import { shallow } from 'enzyme';
 
-describe('Toogle', function () {
+describe('Toggle', function () {
 	it('Renders Off OK', function () {
 		const wrapper = shallow(<Toggle on={false} />);
 		assert.isOk(wrapper);
